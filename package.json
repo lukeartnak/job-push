@@ -1,0 +1,10 @@
+{
+  "name": "job-push",
+  "version": "1.0.0",
+  "description": "tool to help me find jobs at small companies",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cron": "^1.2.1",
+    "jsdom": "^11.0.0"
+  }
+}
