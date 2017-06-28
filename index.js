@@ -25,10 +25,10 @@ function pushNote(jobs) {
     method: 'post',
     url: 'https://api.pushbullet.com/v2/pushes',
     headers: {
-      'Access-Token': config.API_KEY
+      'Access-Token': process.env.API_KEY
     },
     data: {
-      device_iden: config.DEVICE_ID,
+      device_iden: process.env.DEVICE_ID,
       type: 'note',
       body: `There are ${jobs.length} jobs waiting for you at YNAB! ${jobs.join(',')}`
     }
