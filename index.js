@@ -2,8 +2,6 @@ const axios = require('axios');
 const { JSDOM } = require('jsdom');
 const { CronJob } = require('cron');
 
-const config = require('./config');
-
 let job = new CronJob('0 8-22 * * *', () => {
 
   getDocument('https://www.youneedabudget.com/jobs/')
