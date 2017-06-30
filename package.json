@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "cron": "^1.2.1",
+    "express": "^4.15.3",
     "jsdom": "^11.0.0"
   }
 }
